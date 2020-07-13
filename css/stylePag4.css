@@ -1,0 +1,393 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: arial;
+    
+}
+#cabecalho{
+    width: 100%;
+    height: 135px;
+    background-color:RGBA(12, 11, 11);
+    position: fixed;
+}
+.conteudo{
+    width: 1300px;
+    height: inherit;
+    background-color: ;    
+    padding-top: 10px;
+}
+#menuContainer{    
+    width: 100%;
+    height: 60px;
+    background-color: #171716;    
+    
+}
+#menuContainer ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    font-family: arial;
+}
+#menuContainer ul li {
+    float: left;
+    width: 300px;
+    height: 60px;
+    background-color: #171716;
+    opacity: .9;
+    line-height: 60px;
+    text-align: center;
+    font-size: 20px;        
+}
+#menuContainer ul li a {
+    text-decoration: none;
+    color: white;
+    display: block;    
+}
+#menuContainer ul li a:hover{
+    transition: 0.5s;
+    background-color: red;
+}
+#menuContainer ul li ul li{
+    display: none;
+
+}
+#menuContainer ul li:hover ul li {
+    display:block;
+}
+#logoImagen{
+    height: 100px;
+    width: 300px;   
+    margin-left: 50px;
+    float: left;
+    margin-right: 150px;
+    background-color: #da251c;
+    padding-top: 10px;
+    border-radius: 15px;
+    margin-top: 10px;
+}
+#logoImagen img{
+   height: 80px;
+   width: 300px; 
+}
+#logoTexto{
+    float: left;
+    width: 320px;
+    height: 100px;
+    background-color: #da251c;
+   
+    
+}
+#logoTexto img{
+    width: 320px;
+    height: 100px;
+}
+
+#conteudoGrande{
+    width: 100%;
+    height: 4250px;
+    background-image: url(../imagem/senaifundo.jpg);
+    clear: both; 
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#conteudoPequeno{
+    width: 1300px;
+    height: 4250px;
+    background-color: white;
+    clear: both;
+    padding-top:200px;
+    
+    
+}
+.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+.tituloEditor{
+    width: 780px;
+    height: 100px;
+    background-color: white; 
+    text-align: center;
+    padding-top: 15px;
+    
+}
+h1 {
+    font-family: arial, alergian;
+    font-size: 34px;
+    letter-spacing: 2px;
+    margin-top: 10px; 
+}
+p {
+    font-family: arial, alergian;
+    font-size: 20px;
+    letter-spacing: 1.5px;
+    padding: 10px;
+    text-align: left;
+}
+h2 {
+    font-family: arial, alergian;
+    font-size: 30px;
+    padding-top: 15px;
+}
+h3 {
+    font-family: arial, alergian;
+    font-size: 20px;
+    padding-top: 15px;
+    margin-left: 75px;
+}
+#tituloEditor{
+    text-align: center;
+}
+#imagemEditor {
+    width: 780px;
+    height: 300px;
+    background-color:;
+}
+#imagemEditor img {
+    width:780px;
+    height: 300px;
+}
+#testoComeco {
+    width: 780px;
+    height: 150px;
+    background-color: ;
+    margin-top: 35px;
+}
+.titulosTroca {
+    width: 780px;
+    height: 50px;
+    margin-top: 40px;
+    background-color: ;
+}
+.parteUm {
+    float:left;
+    margin-right: 270px;
+}
+.parteDois {
+    float: left;
+}
+.formatacaoConteudos {
+    width: 780px;
+    height: 750px;
+    background-color:;
+    margin-top: 40px;
+    padding-left: 10px;
+    
+}
+.imagensFormacao {
+    height: 200px;
+    width: 230px;
+    margin-top: 25px;
+    margin-left: 10px;
+}
+.imagensFormacao img {
+    height: inherit;
+    width: inherit;
+}
+.textoFormacao {
+    width: 230px;
+    height: 90px;
+    background-color:;
+    margin-top: 25px;
+    margin-left: 10px;
+    font-size: 10px;
+}
+.textoFormacao p {
+    padding: 0px;
+    font-size 10px;
+    line-height:normal;
+}
+.textoFormacao p {
+    font-size: 16px;
+    
+}
+#sub {
+    width: 780px;
+    height: 50px;
+    background-color: ;
+    margin-top: 40px;
+}
+#imagemTextoLado {
+    width: 780px;
+    height: 200px;
+    background-color:;
+    margin-top: 20px;
+    padding-left: 20px;
+    border-bottom: solid 3px black;
+}
+.imagensIsercao {
+    width: 250px;
+    height: 190px;
+    float: left;
+    margin-right: 30px;
+    
+}
+.imagensIsercao img {
+    width: inherit;
+    height: inherit;
+    
+}
+#textoIsercao {
+    float: left;
+    width: 460px;
+    height: 160px;
+    background-color: ;
+    
+}
+#conteudoIsercao {
+    width: 780px;
+    height: 1250px;
+    background-color:;
+    margin-top: 20px;
+}
+.muitoConteudo {
+    width: 780px;
+    height: 250px;
+    background-color: ;
+    border-bottom: solid 3px black;
+}
+.muitoConteudoImagem {
+    width: 170px;
+    height: 180px;
+    background-color: ;
+    margin-top: 13px;
+    float: left;
+    margin-right: 20px;
+    margin-left: 10px;
+    text-align: center;
+}
+.muitoConteudoImagem img {
+    width: 160px;
+    height: 160px;
+    
+}
+.muitoConteudoTexto {
+    width: 150px;
+    height: 180px;
+    background-color:;
+    margin-top: 13px;
+    float: left;
+    
+}
+.muitoConteudoTexto p {
+    font-size: 14px;
+    line-height: normal;
+    padding: 0px;
+    
+}
+#conteudoIsercao h3 {
+    margin-left: 45px;
+}
+.arrumando {
+    float:left;
+    margin-right: 55px; 
+}
+#parteFinal {
+    width: 780px;
+    height: 800px;
+    background-color:;
+    margin-top: 60px;
+    
+}
+.tituloEditorDois {
+    width: 780px;
+    height: 50px;
+    background-color:; 
+    text-align: center;
+    padding: 0px;
+}
+.imagensFinal {
+    width: 430px;
+    height: 300px;
+    background-color: ;
+    margin-top: 40px;
+    float: left;
+    
+}
+.imagensFinal img {
+    width: inherit ;
+    height: inherit ;
+    
+}
+.textoFinal {
+    float: left;
+    width: 300px;
+    height: 150px;
+    background-color: ;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.tituloFinal {
+    float: left;
+    width: 300px;
+    height: 50px;
+    background-color: ;
+    margin-left: 30px;
+    margin-top: 40px;
+}
+#rodapeGrande{
+    width: 1900px;
+    height: 60px;
+    background-color: green;
+    padding-top: 6px;
+
+}
+#rodape {
+    width: 100%;
+    height: 60px;
+    background-color: #171716; 
+}
+
+#pe{
+    width: 1300px;
+    height: inherit;
+    background-color: #171716;
+    padding-top: 8px;
+
+}
+#textoRodape{
+    height: 45px;
+    width: 650px;
+    margin-left: 120px;
+    float: left;
+
+}
+#textoRodape p{
+    text-align: center;
+    color: white;
+    padding-left: 370;
+    padding-top: 15px;
+
+}
+#imagemRodape{
+    height: 100%;
+    width: 100px;
+    float: left;
+}
+#ulRodape{
+    width: 610px;
+    height: 45px;
+    float: left;
+    padding-left: 300px;
+}
+.liRodape{
+    width: 50px;
+    height: 50px;
+    float: left;
+    list-style-type: none;
+    font-family: arial, alergian;
+    color: white;
+    margin-right: 22px;
+    border-radius: 15px;
+    padding-top: 5px;
+}
+.liRodape img {
+    width: 35px;
+    height: 35px;
+}
+
+
+
